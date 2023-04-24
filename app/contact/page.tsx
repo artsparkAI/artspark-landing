@@ -44,7 +44,7 @@ export default function Contact() {
               <div className="flex flex-wrap -mx-3 mb-5">
                 <div className="w-full px-3">
                   <label className="block text-gray-800 dark:text-gray-300 text-sm font-medium mb-1" htmlFor="phone">Phone Number <span className="text-red-600">*</span></label>
-                  <input id="phone" type="tel" className="form-input w-full" placeholder="Enter your phone number" required />
+                  <input id="phone" type="tel" className="form-input w-full" placeholder="Enter your email" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-5">
@@ -90,7 +90,7 @@ export default function Contact() {
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
                   <button className="btn text-white bg-teal-500 hover:bg-teal-400 w-full flex items-center">
-                    <span>Request code</span>
+                    <span>Request demo</span>
                     <svg className="w-3 h-3 shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path className="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
                     </svg>

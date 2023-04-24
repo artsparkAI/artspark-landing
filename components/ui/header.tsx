@@ -31,6 +31,22 @@ export default function Header() {
               </li>
               <li>
                 <Link
+                  href="https://artspark.io/"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  AI Art Tool
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://artspark.ai/"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Store
+                </Link>
+              </li>
+              {/* <li>
+                <Link
                   href="/blog"
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
@@ -44,10 +60,10 @@ export default function Header() {
                 >
                   Testimonials
                 </Link>
-              </li>
-              {/* 1st level: hover */}
+              </li> */}
+              {/* 1st level: hover
               <Dropdown title="Resources">
-                {/* 2nd level: hover */}
+                // 2nd level: hover
                 <li>
                   <Link
                     href="/help"
@@ -64,7 +80,7 @@ export default function Header() {
                     404
                   </Link>
                 </li>
-              </Dropdown>
+              </Dropdown> */}
             </ul>
 
             {/* Desktop lights switch */}
@@ -74,7 +90,7 @@ export default function Header() {
             <ul className="flex justify-end flex-wrap items-center">
               <li>
                 <Link href="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
-                  Request code
+                  Request a demo
                 </Link>
               </li>
             </ul>

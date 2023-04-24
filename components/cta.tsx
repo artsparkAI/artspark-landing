@@ -37,7 +37,7 @@ export default function Cta() {
             <form className="w-full lg:w-1/2">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input type="tel" className="form-input text-gray-100 w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Phone number" aria-label="Phone number" />
-                <a className="btn text-white bg-teal-500 hover:bg-teal-400 shrink-0" href="#0">Request code</a>
+                <a className="btn text-white bg-teal-500 hover:bg-teal-400 shrink-0" href="#0">Request demo</a>
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}

@@ -19,7 +19,7 @@ export default function HeroTestimonials() {
             <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Our customers are building some of the world's most original, useful and
               loved products.</p>
             <div className="mt-8" data-aos="fade-down" data-aos-delay="300">
-              <Link className="btn text-white bg-teal-500 hover:bg-teal-400 ml-3" href="/contact">Request code</Link>
+              <Link className="btn text-white bg-teal-500 hover:bg-teal-400 ml-3" href="/contact">Request demo</Link>
             </div>
           </div>
         </div>

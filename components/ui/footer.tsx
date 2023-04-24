@@ -34,8 +34,8 @@ export default function Footer() {
           {/* Top area: Blocks */}
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
             {/* 1st block */}
-            <div className="md:col-span-2 lg:col-span-3">
-              {/* Logo */}
+            <div className="md:col-span-2 lg:col-span-1">
+              {/*  Logo  */}
               <Link className="inline-block" href="/" aria-label="Cruip">
                 <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                   <defs>
@@ -57,7 +57,7 @@ export default function Footer() {
             {/* 2nd, 3rd, 4th and 5th blocks */}
             <div className="md:col-span-10 lg:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
               {/* 2nd block */}
-              <div className="text-sm">
+              {/* <div className="text-sm">
                 <h6 className="font-medium uppercase mb-2">Products</h6>
                 <ul>
                   <li className="mb-1">
@@ -76,10 +76,10 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               {/* 3rd block */}
-              <div className="text-sm">
+              {/* <div className="text-sm">
                 <h6 className="font-medium uppercase mb-2">Resources</h6>
                 <ul>
                   <li className="mb-1">
@@ -108,42 +108,57 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               {/* 4th block */}
               <div className="text-sm">
                 <h6 className="font-medium uppercase mb-2">Company</h6>
                 <ul>
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
                       Diversity & inclusion
                     </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
+                  </li> */}
+                  {/* <li className="mb-1">
+                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="/about">
                       About us
+                    </a>
+                  </li> */}
+                  <li className="mb-1">
+                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="/contact">
+                      Contact us
                     </a>
                   </li>
                   <li className="mb-1">
+                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://artspark.io">
+                      AI Art Tool
+                    </a>
+                  </li>
+                  <li className="mb-1">
+                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="https://artspark.ai">
+                      Store
+                    </a>
+                  </li>
+                  {/* <li className="mb-1">
                     <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
                       Press
                     </a>
-                  </li>
-                  <li className="mb-1">
+                  </li> */}
+                  {/* <li className="mb-1">
                     <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
                       Customer stories
                     </a>
-                  </li>
-                  <li className="mb-1">
+                  </li> */}
+                  {/* <li className="mb-1">
                     <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
                       Online communities
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
               {/* 5th block */}
-              <div className="text-sm">
+              {/* <div className="text-sm">
                 <h6 className="font-medium uppercase mb-2">Support</h6>
                 <ul>
                   <li className="mb-1">
@@ -167,7 +182,7 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -178,7 +193,7 @@ export default function Footer() {
               <li>
                 <a
                   className="flex justify-center items-center text-white bg-teal-500 dark:text-teal-500 dark:bg-gray-800 hover:underline hover:bg-teal-600 rounded-full transition duration-150 ease-in-out"
-                  href="#0"
+                  href="https://twitter.com/artsparkai"
                   aria-label="Twitter"
                 >
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -186,7 +201,7 @@ export default function Footer() {
                   </svg>
                 </a>
               </li>
-              <li className="ml-4">
+              {/* <li className="ml-4">
                 <a
                   className="flex justify-center items-center text-white bg-teal-500 dark:text-teal-500 dark:bg-gray-800 hover:underline hover:bg-teal-600 rounded-full transition duration-150 ease-in-out"
                   href="#0"
@@ -196,8 +211,8 @@ export default function Footer() {
                     <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
                   </svg>
                 </a>
-              </li>
-              <li className="ml-4">
+              </li> */}
+              {/* <li className="ml-4">
                 <a
                   className="flex justify-center items-center text-white bg-teal-500 dark:text-teal-500 dark:bg-gray-800 hover:underline hover:bg-teal-600 rounded-full transition duration-150 ease-in-out"
                   href="#0"
@@ -207,11 +222,11 @@ export default function Footer() {
                     <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
                   </svg>
                 </a>
-              </li>
+              </li> */}
               <li className="ml-4">
                 <a
                   className="flex justify-center items-center text-white bg-teal-500 dark:text-teal-500 dark:bg-gray-800 hover:underline hover:bg-teal-600 rounded-full transition duration-150 ease-in-out"
-                  href="#0"
+                  href="https://www.instagram.com/artsparkai/"
                   aria-label="Instagram"
                 >
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -224,7 +239,7 @@ export default function Footer() {
               <li className="ml-4">
                 <a
                   className="flex justify-center items-center text-white bg-teal-500 dark:text-teal-500 dark:bg-gray-800 hover:underline hover:bg-teal-600 rounded-full transition duration-150 ease-in-out"
-                  href="#0"
+                  href="https://www.linkedin.com/company/artsparkai/"
                   aria-label="Linkedin"
                 >
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -235,7 +250,7 @@ export default function Footer() {
             </ul>
 
             {/* Middle links */}
-            <div className="text-sm md:order-1 text-gray-700 mb-2 md:mb-0">
+            {/* <div className="text-sm md:order-1 text-gray-700 mb-2 md:mb-0">
               <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
                 Terms
               </a>{' '}
@@ -243,10 +258,10 @@ export default function Footer() {
               <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
                 Privacy Policy
               </a>
-            </div>
+            </div> */}
 
             {/* Copyrights note */}
-            <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; Cruip.com. All rights reserved.</div>
+            <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; Artsparkai.com. All rights reserved.</div>
           </div>
         </div>
       </div>

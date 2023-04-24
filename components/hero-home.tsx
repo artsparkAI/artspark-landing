@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import MockupImage from '@/public/images/mockup-image-01.jpg'
-import IphoneMockup from '@/public/images/iphone-mockup.png'
+import ToughCase from '@/public/images/tough-case.png'
 import PlayBtn from '@/public/images/play-button.svg'
 import Modal from '@/components/utils/modal'
 
@@ -21,13 +21,13 @@ export default function HeroHome() {
 
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
-              <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black" data-aos="fade-down">Your website, reimagined</h1>
-              <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black" data-aos="fade-down">Where imagination meets merch</h1>
+              <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Use our AI to design branded products in minutes and launch your merch store </p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
                 <div className="flex flex-col sm:flex-row justify-center max-w-sm mx-auto sm:max-w-md md:mx-0">
-                  <input type="tel" className="form-input w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Phone number" aria-label="Phone number" />
-                  <a className="btn text-white bg-teal-500 hover:bg-teal-400 shrink-0" href="#0">Request code</a>
+                  <input type="tel" className="form-input w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Email" aria-label="Email" />
+                  <a className="btn text-white bg-teal-500 hover:bg-teal-400 shrink-0" href="#0">Request demo</a>
                 </div>
                 {/* Success message */}
                 {/* <p className="text-center md:text-left mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
@@ -37,19 +37,19 @@ export default function HeroHome() {
                   <svg className="w-3 h-3 fill-current text-teal-400 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>Lorem ipsum is placeholder text commonly.</span>
+                  <span>Your identity and creative preferences</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <svg className="w-3 h-3 fill-current text-teal-400 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>Excepteur sint occaecat cupidatat.</span>
+                  <span>Our design and merchandising expertise</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <svg className="w-3 h-3 fill-current text-teal-400 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>Lorem ipsum is placeholder text commonly.</span>
+                  <span>Your revenue stream from a hands off web store</span>
                 </li>
               </ul>
             </div>
@@ -73,13 +73,13 @@ export default function HeroHome() {
                   </defs>
                 </svg>
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
-                <Image className="absolute" src={MockupImage} width={290} style={{ maxWidth: '84.33%' }} priority alt="Features illustration" />
+                {/* <Image className="absolute" src={ToughCase} width={290} style={{ maxWidth: '84.33%' }} priority alt="Features illustration" /> */}
                 {/* iPhone mockup */}
-                <Image className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none" src={IphoneMockup} width={344} height={674} priority alt="iPhone mockup" aria-hidden="true" />
+                <Image className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none" src={ToughCase} width={344} height={674} priority alt="iPhone mockup" aria-hidden="true" />
                 {/* Play button */}
-                <a className="absolute group" href="#0" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
+                {/* <a className="absolute group" href="#0" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                   <Image src={PlayBtn} width="96" height="96" alt="Play" />
-                </a>
+                </a> */}
               </div>
 
               {/* Modal */}

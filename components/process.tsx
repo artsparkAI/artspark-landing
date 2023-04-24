@@ -3,7 +3,7 @@ import MockupImage02 from '@/public/images/mockup-image-02.jpg'
 import MockupImage03 from '@/public/images/mockup-image-03.jpg'
 import MockupImage04 from '@/public/images/mockup-image-04.jpg'
 import IphoneMockup from '@/public/images/iphone-mockup.png'
-
+import ToughCase from '@/public/images/tough-case.webp'
 export default function Process() {
   return (
     <section className="relative">

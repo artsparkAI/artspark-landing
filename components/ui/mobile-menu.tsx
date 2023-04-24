@@ -82,14 +82,41 @@ export default function MobileMenu() {
             <ul>
               <li>
                 <Link
+                  href="https://artspark.io"
+                  className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  AI Art Tool
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://artspark.ai"
+                  className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  Store
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  Contact Us
+                </Link>
+              </li>
+              {/* <li>
+                <Link
                   href="/about"
                   className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                   onClick={() => setMobileNavOpen(false)}
                 >
                   About
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   href="/blog"
                   className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
@@ -129,14 +156,14 @@ export default function MobileMenu() {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/contact"
                   className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded text-white bg-teal-500 hover:bg-teal-400 transition duration-150 ease-in-out"
                   onClick={() => setMobileNavOpen(false)}
                 >
-                  Request code
+                  Request demo
                 </Link>
               </li>
             </ul>
