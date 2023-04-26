@@ -23,13 +23,13 @@ export default function Home() {
       </div>
       <Hero />
       {/* <Stats /> */}
-      <Carousel />
-      <Tabs />
-      <Process />
+      {/* <Carousel /> */}
+      {/* <Tabs /> */}
+      {/* <Process /> */}
       {/* <PricingTables /> */}
       {/* <TestimonialsBlocks /> */}
       <FeaturesBlocks />
-      <Cta />
+      {/* <Cta /> */}
     </>
   )
 }
