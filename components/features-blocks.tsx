@@ -1,12 +1,14 @@
+import AIBackground from '@/public/images/ai-background.webp'
+
 export default function FeaturesBlocks() {
   return (
-    <section>
+    <section style={{ backgroundImage: `url(${AIBackground.src})` }}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display">Merchandising made simple</h2>
+            <h2 className="h2 font-red-hat-display text-white">Design made simple</h2>
           </div>
 
           {/* Items */}
