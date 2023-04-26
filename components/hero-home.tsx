@@ -75,8 +75,8 @@ export default function HeroHome() {
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
                 {/* <Image className="absolute" src={ToughCase} width={290} style={{ maxWidth: '84.33%' }} priority alt="Features illustration" /> */}
                 {/* iPhone mockup */}
-                <div className="animate-bounce">
-                  <Image className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none" src={ToughCase} width={344} height={674} priority alt="iPhone mockup" aria-hidden="true" />
+                <div className="animate-float ease-in-out">
+                  <Image className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none" src={ToughCase} width={644} height={874} priority alt="iPhone mockup" aria-hidden="true" />
                 </div>
                 {/* Play button */}
                 {/* <a className="absolute group" href="#0" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
