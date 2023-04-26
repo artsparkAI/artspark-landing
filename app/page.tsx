@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Appy',
-  description: 'Page description',
+  title: 'Artspark Design',
+  description: 'Where imagination meets merch',
 }
 
 import PageIllustration from '@/components/page-illustration'

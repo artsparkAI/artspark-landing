@@ -75,7 +75,7 @@ export default function MobileMenu() {
         >
           <div className="py-6 pr-4 pl-20">
             {/* Logo */}
-            <Link href="/" className="inline-block mb-4" aria-label="Cruip" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/" className="inline-block mb-4" aria-label="Artspark" onClick={() => setMobileNavOpen(false)}>
               <Logo />
             </Link>
             {/* Links */}
