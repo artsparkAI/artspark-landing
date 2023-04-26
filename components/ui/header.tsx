@@ -21,14 +21,14 @@ export default function Header() {
           <nav className="hidden md:flex md:grow">
             {/* Desktop menu links */}
             <ul className="flex grow flex-wrap items-center font-medium">
-              <li>
+              {/* <li>
                 <Link
                   href="/about"
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   About
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="https://artspark.io/"
