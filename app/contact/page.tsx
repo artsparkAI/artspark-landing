@@ -1,9 +1,12 @@
-export const metadata = {
-  title: 'Contact - Appy',
-  description: 'Page description',
-}
+'use client';
+// export const metadata = {
+//   title: 'Request a demo - Artspark',
+//   description: 'Request an Artspark demo',
+// }
 
 import PageIllustration from '@/components/page-illustration'
+
+import { Widget } from '@typeform/embed-react'
 
 export default function Contact() {
   return (
@@ -12,18 +15,30 @@ export default function Contact() {
       <div className="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1" aria-hidden="true">
         <PageIllustration />
       </div>
+      <section>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="pt-6 pb-12 md:pt-8 md:pb-20">
+            </div>
+        </div>
+      </section>
 
       <section className="relative">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+        <Widget id='Km6mfYKu' className="request-a-demo-embed" style={{height:"600px"}}/>
+
+      {/* <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="pt-32 pb-10 md:pt-40 md:pb-16"> */}
+
+        {/* <div data-tf-widget="" data-tf-opacity="100" data-tf-iframe-props="title=Lead Capture Form" data-tf-transitive-search-params data-tf-medium="snippet" style={{width:'100%', height:'500px'}}></div><script src="//embed.typeform.com/next/embed.js"></script> */}
+        {/* <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
-            {/* Page header */}
+            // Page header
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h1 font-red-hat-display mb-4">Get started with Appy in seconds</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400">We'll send you a text with a link to download the app.</p>
             </div>
 
-            {/* Contact form */}
+            // Contact form
             <form className="max-w-xl mx-auto">
               <div className="flex flex-wrap -mx-3 mb-5">
                 <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
@@ -43,8 +58,12 @@ export default function Contact() {
               </div>
               <div className="flex flex-wrap -mx-3 mb-5">
                 <div className="w-full px-3">
-                  <label className="block text-gray-800 dark:text-gray-300 text-sm font-medium mb-1" htmlFor="phone">Phone Number <span className="text-red-600">*</span></label>
-                  <input id="phone" type="tel" className="form-input w-full" placeholder="Enter your email" required />
+                  <label className="block text-gray-800 dark:text-gray-300 text-sm font-medium mb-1" htmlFor="email">Email<span className="text-red-600">*</span></label>
+                  <input id="email" type="email" className="form-input w-full" placeholder="Enter your email" required />
+                </div>
+                <div className="w-full px-3">
+                  <label className="block text-gray-800 dark:text-gray-300 text-sm font-medium mb-1" htmlFor="phone">Phone</label>
+                  <input id="phone" type="phone" className="form-input w-full" placeholder="Enter your phone" />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-5">
@@ -100,8 +119,9 @@ export default function Contact() {
             </form>
 
           </div>
-        </div>
+        </div> */}
       </section>
+      
     </>
   )
 }
